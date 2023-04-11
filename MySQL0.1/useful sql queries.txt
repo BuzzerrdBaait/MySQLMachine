@@ -1,0 +1,49 @@
+
+
+1. To display all records in a table:
+SELECT * FROM newdatabase.table_0;
+
+2. To select specific columns:
+SELECT column_1, column_2 FROM newdatabase.table_1;
+
+3. To sort records in ascending order:
+SELECT * FROM newdatabase.table_2 ORDER BY column_3 ASC;
+
+4. To sort records in descending order:
+SELECT * FROM newdatabase.table_3 ORDER BY column_4 DESC;
+
+5. To filter records with a specific value:
+SELECT * FROM newdatabase.table_0 WHERE column_5 = 'value';
+
+6. To count the number of records:
+SELECT COUNT(*) FROM newdatabase.table_1;
+
+7. To find the sum of values in a column:
+SELECT SUM(column_6) FROM newdatabase.table_2;
+
+8. To join two tables:
+SELECT * FROM newdatabase.table_3 JOIN newdatabase.table_0 ON table_3.column_1 = table_0.column_2; 
+
+9. To find the maximum value of a column:
+SELECT MAX(column_3) FROM newdatabase.table_1;
+
+10. To group records by a column:
+SELECT column_4, COUNT(*) FROM newdatabase.table_2 GROUP BY column_4;
+
+1. To create a new table:
+CREATE TABLE newdatabase.table_4 (column_1 INT, column_2 VARCHAR(250));
+
+2. To add a column to a table:
+ALTER TABLE newdatabase.table_2 ADD COLUMN column_7 VARCHAR(250);
+
+3. To delete a column from a table:
+ALTER TABLE newdatabase.table_3 DROP COLUMN column_5;
+
+4. To insert records into a table:
+INSERT INTO newdatabase.table_0 (column_1, column_2) VALUES (1, 'value');
+
+5. To update existing records:
+UPDATE newdatabase.table_1 SET column_3 = 'new_value' WHERE column_4 = 'old_value';
+
+6. To delete records from a table:
+DELETE FROM newdatabase.table_2 WHERE column_5 = 'value';
