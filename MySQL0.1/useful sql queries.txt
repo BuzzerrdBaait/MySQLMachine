@@ -25,11 +25,12 @@ ON order_items.product_id = order_item_notes.product_id;
 ###################################################################
 ###################################################################
 
-Averaging a columns values and returning rows > than average + a number to get above average results
+Averaging a columns values and returning rows > than average + a number and imposes a limit. I know I could just run ORDER by scores desc limit. This is just an example.
 
 Select url_5 as urls, score_3 as scores
 FROM crypto_18
-WHERE score_3 > (SELECT AVG(score_3) from crypto_18)+50;
+WHERE score_3 > (SELECT AVG(score_3) from crypto_18)+20
+ORDER by scores desc limit 10;
 
 ########################################################################
 ########################################################################
