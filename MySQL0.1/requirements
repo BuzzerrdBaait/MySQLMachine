@@ -1,4 +1,23 @@
+You will need a mysql database,              ----> I suggest installing mysqlworkbench
+              reddit account and API access  ----> Here is a good tutorial how to get set up pretty quick.... https://towardsdatascience.com/how-to-use-the-reddit-api-in-python-5e05ddfd1e5c
+              go ahead and gather the following information from each category, Reddit User name, ####STOPPED HERE###WILL BE BACK###
+              pip installed.
+              
+
+Create a text file named requirements.txt
+Copy and paste these into your text file that is stored inside your virtual environment's folder.
+
 praw
 regex
 mysql
 mysql-connector
+
+open cmd line and cd into the folder containing your requirements.txt file
+
+type pip install -r requirements.txt
+
+this should install praw, regex,mysql, and my sql-connector.
+
+
+
+
