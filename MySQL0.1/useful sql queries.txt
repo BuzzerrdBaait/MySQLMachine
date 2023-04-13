@@ -1,4 +1,50 @@
+#########################################################################
 
+Prolific commenter-#Checks how many times a person commented in a subreddit
+
+SELECT 
+	author_4 as prolific_commenter, 
+	COUNT(*)
+FROM 
+	howtohack_9
+GROUP BY 
+	author_4
+having 
+	COUNT(*) > 5;
+  
+ ###################################################################
+ ################################################################### 
+ 
+JOINSS       #For relational database types.
+ 
+SELECT * 
+FROM order_items 
+INNER JOIN order_item_notes 
+ON order_items.product_id = order_item_notes.product_id;
+
+###################################################################
+###################################################################
+
+Averaging a columns values and returning rows > than average + a number to get above average results
+
+Select url_5 as urls, score_3 as scores
+FROM crypto_18
+WHERE score_3 > (SELECT AVG(score_3) from crypto_18)+50;
+
+########################################################################
+########################################################################
+UNIONS
+
+Select url_5 as urls, score_3 as scores
+FROM crypto_18
+WHERE score_3 > (SELECT AVG(score_3) from crypto_18)+50
+UNION
+Select url_5 as urls, score_3 as scores
+FROM <OTHER TABLESNAME>
+WHERE score_3 > (SELECT AVG(score_3) from <OTHER TABLES NAME>)+50;
+
+########################################################################
+########################BABY COMMANDS ###################################
 
 1. To display all records in a table:
 SELECT * FROM newdatabase.table_0;
