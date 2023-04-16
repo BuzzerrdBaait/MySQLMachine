@@ -45,6 +45,9 @@ FROM <OTHER TABLESNAME>
 WHERE score_3 > (SELECT AVG(score_3) from <OTHER TABLES NAME>)+50;
 
 ########################################################################
+
+#Add to existing table to index table
+ALTER TABLE employee_table ADD id int primary key auto_increment;
 ########################BABY COMMANDS ###################################
 
 1. To display all records in a table:
