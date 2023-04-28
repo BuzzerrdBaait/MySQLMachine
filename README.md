@@ -21,7 +21,7 @@ The API used to connect to Reddit is called praw. You will have to register with
 
 _.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-._
 
-What next?
+_.-.__.-.__.-.__.-.__.-._What next?_.-.__.-.__.-.__.-.__.-._
 
   After you have created a database, and registered with Oauth. You will have to fill out your Oauth credentials. The code will look like this..
   See lines 23-28 in Datastream.py
