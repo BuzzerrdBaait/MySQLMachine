@@ -6,8 +6,8 @@ Also, there is the url opener GUI that allows you to search your database and op
 
 I would reccomend downloading MySQL workbench (GUI for database). Here is the link for MySQL Workbench ---> https://dev.mysql.com/downloads/workbench/                 
 
-_.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-._
-Getting Started:
+_.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__
+Getting Started:.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.
 
   To get started, you need to have a MySQL Database, Python installed, and some basic understanding of SQL.                                                
 
