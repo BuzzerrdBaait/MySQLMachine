@@ -24,10 +24,9 @@ _.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-._
 What next?
 
   After you have created a database, and registered with Oauth. You will have to fill out your Oauth credentials. The code will look like this..
+  See lines 23-28 in Datastream.py
   
   import praw
-  
-  See lines 23-28 in Datastream.py
 
 reddit = praw.Reddit(
     client_id="my client id",
