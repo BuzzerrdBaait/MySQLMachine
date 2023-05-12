@@ -1,3 +1,9 @@
+UPDATING RELATIONAL DBS:
+
+INSERT INTO photo_meta (id, File_Name)
+SELECT id, File_name FROM description_keywords
+WHERE NOT EXISTS (SELECT 1 FROM photo_meta WHERE photo_meta.id = description_keywords.id);
+
 #########################################################################
 
 Prolific commenter-#Checks how many times a person commented in a subreddit
